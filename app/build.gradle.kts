@@ -30,7 +30,13 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+signingConfig = if (project.hasProperty("fdroid")) {
+            null
+        } else {
+            signingConfigs.getByName("release")
         }
+    }
+        
         debug { isMinifyEnabled = false }
     }
 
