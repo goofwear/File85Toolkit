@@ -1,0 +1,1 @@
+Lightweight file compression and decompression using LZMA + Base85.

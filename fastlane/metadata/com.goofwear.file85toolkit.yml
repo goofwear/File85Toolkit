@@ -1,0 +1,39 @@
+Categories:
+  - Utilities
+License: MIT
+AuthorName: goofwear
+AuthorEmail: goofwear@gmail.com
+WebSite: https://github.com/goofwear/File85Toolkit
+SourceCode: https://github.com/goofwear/File85Toolkit
+IssueTracker: https://github.com/goofwear/File85Toolkit/issues
+Changelog: https://github.com/goofwear/File85Toolkit/releases
+
+Name: File85Toolkit
+Summary: Fast Base85 + LZMA compression and decompression tool
+Description: |-
+  File85Toolkit is an Android utility app for efficient file compression and decompression.
+  It works by first compressing files with **LZMA** (XZ algorithm) and then encoding the 
+  compressed data with **Base85**. For decompression, it reverses the process by decoding 
+  Base85 and applying LZMA decompression.  
+
+  Features:
+   * Compress files with LZMA, encode with Base85
+   * Decompress Base85 back to original with LZMA
+   * Lightweight and fast
+   * Modern Material 3 interface (Jetpack Compose)
+   * About screen with credits and open-source licenses
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+RepoType: git
+Repo: https://github.com/goofwear/File85Toolkit.git
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+ArchivePolicy: 0 versions

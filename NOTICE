@@ -1,0 +1,18 @@
+File85Toolkit
+=============
+
+Author: goofwear (2025)
+
+This project uses open source components. Source code is licensed under the MIT License (see LICENSE file).
+
+Credits & Dependencies
+----------------------
+- org.tukaani:xz (LZMA/XZ compression) — Public Domain / GPL dual license
+- androidx.* libraries — Apache-2.0
+- com.google.android.material:material — Apache-2.0
+- Jetpack Compose libraries — Apache-2.0
+
+Licensing Exceptions
+--------------------
+The icons, logos, and artwork included with this project are NOT licensed under MIT.  
+They are covered under the Creative Commons BY-NC-ND 4.0 License (see ASSETS_LICENSE file).

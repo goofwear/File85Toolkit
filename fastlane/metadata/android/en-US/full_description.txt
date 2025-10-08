@@ -1,0 +1,9 @@
+File85Toolkit is an Android utility app designed for efficient file management through compression and decompression.
+
+✨ Features:
+- Compress files using LZMA, then encode them with Base85 for compact storage and sharing.
+- Decompress files by Base85 decoding and then extracting with LZMA.
+- Modern UI with Material 3 and Jetpack Compose support.
+- Fully open source, privacy-friendly, no ads.
+
+File85Toolkit helps you save space and move files with ease, all directly on your Android device.

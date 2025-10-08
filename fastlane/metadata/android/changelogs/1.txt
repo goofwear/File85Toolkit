@@ -1,0 +1,5 @@
+Initial release of File85Toolkit (v1.0.0)
+- LZMA compression + Base85 encoding
+- Base85 decoding + LZMA decompression
+- Jetpack Compose UI with Material 3
+- About screen with credits

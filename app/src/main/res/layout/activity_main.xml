@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select File" />
+
+    <Button
+        android:id="@+id/encodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encode" />
+
+    <Button
+        android:id="@+id/decodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decode" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
