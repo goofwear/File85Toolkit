@@ -17,7 +17,6 @@ local.properties
 *.keystore
 *.keystore.properties
 *.pem
-gradle.properties
 
 # Logs
 *.log
