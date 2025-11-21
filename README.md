@@ -38,7 +38,61 @@ It provides a lightweight toolkit to pack, unpack, and manage files directly on 
 
 ## 📥 Installation
 
+
+
 - **Debug builds** can be found under [Releases](../../releases).  
+
+---
+
+## 📦 Install
+
+### **F-Droid (Recommended)**
+File85Toolkit is officially included in the F-Droid repository.
+
+[![Get it on F-Droid](assets/badges/get-it-on-f-droid.png)](https://f-droid.org/en/packages/com.goofwear.file85toolkit/)
+
+- Built from source on F-Droid’s reproducible build servers  
+- Signed with the F-Droid signing key  
+- Automatically updates via the F-Droid app
+
+---
+
+### **Obtainium (Auto-update via GitHub/F-Droid)**
+Import the app automatically into Obtainium using this link:
+
+[![Get it on Obtainium](assets/badges/get-it-on-obtainium.png)](http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://f-droid.org/packages/com.goofwear.file85toolkit)
+
+---
+
+### **OpenAPK (Mirror Download)**
+A third-party APK mirror tracked automatically.
+
+[![Get it on OpenAPK](assets/badges/get-it-on-openapk.png)](https://www.openapk.net/file85toolkit/com.goofwear.file85toolkit/)
+
+---
+
+### **GitHub Releases (Source Only)**
+GitHub does **not** host APK files for File85Toolkit to maintain signing trust.  
+However, full source code and tags are published here:
+
+[![Get it on GitHub](assets/badges/get-it-on-github.png)](https://github.com/goofwear/File85Toolkit)
+
+---
+
+## 🔐 Security & Signing
+
+This project uses **F-Droid signing only**.
+
+Why?
+
+- Avoids leaking or uploading personal signing keys  
+- F-Droid independently compiles the app from source  
+- F-Droid verifies that the resulting APK matches the source code  
+- Users receive official updates securely through the F-Droid client
+
+This creates a clean chain-of-trust with **no developer key handling required**.
+
+### ⚡ Building in Termux
 - To build from source:
 
 ```bash
@@ -46,7 +100,7 @@ git clone https://github.com/YOUR_USERNAME/File85Toolkit.git
 cd File85Toolkit
 ./gradlew assembleDebug```
 
-### ⚡ Building in Termux
+
 On some Termux setups, you may need a custom `aapt2` binary (e.g. from [Revancify](https://github.com/ReVanced/revancify)).
 
 Add this line to your local `~/.gradle/gradle.properties`:
