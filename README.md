@@ -49,7 +49,7 @@ It provides a lightweight toolkit to pack, unpack, and manage files directly on 
 ### **F-Droid (Recommended)**
 File85Toolkit is officially included in the F-Droid repository.
 
-[![Get it on F-Droid](assets/badges/get-it-on-f-droid.png)](https://f-droid.org/en/packages/com.goofwear.file85toolkit/)
+<a href="https://f-droid.org/en/packages/com.goofwear.file85toolkit/"><img src="assets/badges/get-it-on-f-droid.png" alt="Get it on F-Droid" height="85"></a>
 
 - Built from source on F-Droid’s reproducible build servers  
 - Signed with the F-Droid signing key  
@@ -60,14 +60,14 @@ File85Toolkit is officially included in the F-Droid repository.
 ### **Obtainium (Auto-update via GitHub/F-Droid)**
 Import the app automatically into Obtainium using this link:
 
-[![Get it on Obtainium](assets/badges/get-it-on-obtainium.png)](http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://f-droid.org/packages/com.goofwear.file85toolkit)
+<a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://f-droid.org/packages/com.goofwear.file85toolkit"><img src="assets/badges/get-it-on-obtainium.png" alt="Get it on Obtainium" height="85"></a>
 
 ---
 
 ### **OpenAPK (Mirror Download)**
 A third-party APK mirror tracked automatically.
 
-[![Get it on OpenAPK](assets/badges/get-it-on-openapk.png)](https://www.openapk.net/file85toolkit/com.goofwear.file85toolkit/)
+<a href="https://www.openapk.net/file85toolkit/com.goofwear.file85toolkit/"><img src="assets/badges/get-it-on-openapk.png" alt="Get it on OpenAPK" height="85"></a>
 
 ---
 
@@ -75,7 +75,7 @@ A third-party APK mirror tracked automatically.
 GitHub does **not** host APK files for File85Toolkit to maintain signing trust.  
 However, full source code and tags are published here:
 
-[![Get it on GitHub](assets/badges/get-it-on-github.png)](https://github.com/goofwear/File85Toolkit)
+<a href="https://github.com/goofwear/File85Toolkit/releases"><img src="assets/badges/get-it-on-github.png" alt="Get it on GitHub" height="85"></a>
 
 ---
 
